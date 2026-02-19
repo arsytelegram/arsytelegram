@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="ARSY - Telegram channels landing page with iOS 26 design">
+    <meta name="keywords" content="ARSY, Telegram, iOS design, glassmorphism">
+    <meta name="author" content="ARSY">
+    <meta property="og:title" content="ARSY · iOS 26">
+    <meta property="og:description" content="Telegram channels landing page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://arsy.github.io">
+    <title>ARSY · iOS 26</title>
+    
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Preload шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+<body>
+    <!-- Декоративные сферы -->
+    <div class="decoration-sphere sphere-1"></div>
+    <div class="decoration-sphere sphere-2"></div>
+    <div class="decoration-sphere sphere-3"></div>
+
+    <!-- Генерация частиц -->
+    <div id="particles"></div>
+
+    <!-- Основной контейнер -->
+    <div class="glass-container">
+        <div class="glass-card">
+            <!-- Заголовок ARSY заглавными -->
+            <div class="ios-title">
+                <h1>ARSY</h1>
+                <p>telegram channels</p>
+            </div>
+            
+            <!-- Контейнер с кнопками -->
+            <div class="button-container">
+                <!-- Кнопка Telegram Profile с @nftiess -->
+                <a href="https://t.me/nftiess" class="ios-button" target="_blank" rel="noopener noreferrer">
+                    <span class="button-icon">📱</span>
+                    <span class="button-text">Telegram Profile</span>
+                </a>
+
+                <!-- Кнопка Telegram Bio с arsybio -->
+                <a href="https://t.me/arsybio" class="ios-button" target="_blank" rel="noopener noreferrer">
+                    <span class="button-icon">👤</span>
+                    <span class="button-text">Telegram Bio</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключение JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
